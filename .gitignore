@@ -1,0 +1,23 @@
+# Gizli fayllar - bu repoya hec vaxt dusmemelidir
+.env
+*.env
+token.json
+oauth_client.json
+*service-account*.json
+Shahinsheet.json
+clients/
+*.pem
+*.key
+*.p12
+id_rsa*
+id_ed25519*
+
+# Sistem
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
